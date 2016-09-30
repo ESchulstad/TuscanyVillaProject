@@ -1,2 +1,26 @@
 ﻿body {
 }
+div.page-header{
+    text-align:center;
+    border-bottom:none;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align:top;
+  
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-brand{
+    font-size:10pt;
+    color:aqua;
+}
+#navvy a{
+    color:black;
+}
+#navvy a:hover{
+    background:none;
+}
