@@ -108,11 +108,14 @@
   <ItemGroup>
     <Content Include="images\ad.png" />
     <Content Include="images\bed.jpg" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\google.png" />
     <Content Include="images\living room.jpg" />
     <Content Include="images\map.jpg" />
     <Content Include="images\outdoor table.jpg" />
     <Content Include="images\pool with chairs.jpg" />
     <Content Include="images\pool.jpg" />
+    <Content Include="images\twitter-512.png" />
     <Content Include="images\whole villa.jpg" />
     <Content Include="images\wooden outdoor table.jpg" />
     <Content Include="index.html" />

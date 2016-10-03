@@ -1,23 +1,28 @@
 ﻿body {
     background-color:gainsboro;
 }
+/*Header*/
 div.page-header{
     text-align:center;
     border-bottom:none;
     color:darkslategrey;
 }
+/*First part of title*/
 .homepage{
     font-family: 'Muli', sans-serif;
     font-weight:bold;
     margin-bottom:0px;
     font-size:45px;
 }
+/*Second part of title*/
 .design{
     font-family: 'Allura', cursive;
     font-size:40px;
     margin-top:0px;
 }
+/*NavBar*/
 .navbar .navbar-nav {
+    /*needed to make the middle part of nav in the middle instead of on the left*/
   display: inline-block;
   float: none;
   vertical-align:top;
@@ -30,9 +35,11 @@ nav#navvy{
 }
 
 .navbar .navbar-collapse {
+    /*makes middle nav in middle*/
     text-align: center;
 }
 .navbar-brand{
+    /*brand name text size*/
     font-size:10pt;
 }
 #navvy a{
@@ -51,23 +58,26 @@ nav#navvy{
 #navvy a:hover{
     background:none;
 }
-/*Button*/
+/*Button on NavBar*/
 button.navbar-toggle{
     border:1px solid darkgray;
 }
 span.icon-bar{
     border:1px solid darkgray;
 }
+/*The main container which holds the grid*/
 .main{
     margin-top:0px;
     padding-top:0px;
 }
+/*First row*/
 .rectangle{
     height:600px;
     border:solid 1px;
     background-color:#5c5c3d;
     font-family: 'Muli', sans-serif;
 }
+/*first column in first row*/
 .first {
     background-image: url('images/whole villa.jpg');
     background-size:cover;
@@ -78,6 +88,7 @@ span.icon-bar{
     padding-right: 150px;
 }
 .textBox{
+    /*text in first column of first row*/
     background-color:#1f1f14;
     color:white;
     text-align:center;
@@ -86,9 +97,11 @@ span.icon-bar{
    
 }
 .btn{
+    /*button in both boxes in first row*/
     background-color:aquamarine;
     float:right;
 }
+/*second column in first row*/
 .second {
     background-image: url('images/map.jpg');
     background-size:cover;
@@ -99,57 +112,68 @@ span.icon-bar{
     padding-left: 15px;
 }
 .anotherTextBox{
+    /*text in second column first row*/
     background-color:white;
     color:dimgrey;
     text-align:center;
     margin-top:150px;
     padding: 5px;
 }
+/*all other grid boxes*/
 .square{
     height:300px;
     border:solid 1px gainsboro;
     font-family: 'Muli', sans-serif;
     background-color:white;
 }
+/*background for weddings*/
 .villaOne {
     background-image: url('images/living room.jpg');
     background-size:cover;
     background-repeat:no-repeat;
 }
+/*background for friends*/
 .villaTwo {
     background-image: url('images/outdoor table.jpg');
     background-size:cover;
     background-repeat:no-repeat;
 }
+/*background for family*/
 .villaThree {
     background-image: url('images/bed.jpg');
     background-size:cover;
     background-repeat:no-repeat;
 }
+/*background for villa paola 1*/
 .villaFour {
     background-image: url('images/pool with chairs.jpg');
     background-size:cover;
     background-repeat:no-repeat;
 }
+/*background for la villa*/
 .villaFive {
     background-image: url('images/wooden outdoor table.jpg');
     background-size:cover;
     background-repeat:no-repeat;
 }
+/*background for villa paola 2*/
 .villaSix {
     background-image: url('images/pool.jpg');
     background-size:cover;
     background-repeat:no-repeat;
 }
+/*background for ad box*/
 .ad {
     background-image: url('images/ad.png');
     
     background-repeat:no-repeat;
     background-size:contain;
 }
+/*first column second row*/
 .boxNumOne{
     padding:35px;
 }
+/*for columns 2 3 4 in row 2*/
 .textBoxCenter{
     background-color:#1f1f14;
     color:white;
@@ -157,32 +181,40 @@ span.icon-bar{
     margin-top:100px;
     padding:5px;
 }
+/*for all the columns with paragraphs*/
 .paragraphCenter{
     text-align:center;
     color:darkgrey;
     margin-top:50px;
 }
+
 .boxTitle{
+    /*makes the header for the paragraph boxes bold*/
     font-weight:bold;
 }
+/*for the nested columns in the boxes showing specific villas*/
 .villaInfo{
     height:75px;
     background-color:#1f1f14;
     color:white;
     padding-top:5px;
 }
+/*for the boxes containing nested columns about the villas*/
 .nestedRow{
     padding-top:150px;
 }
 .price{
+    /*column containing price per day*/
     background-color:#6b6b47;
     text-align:center;
 }
 .clickBtn{
+    /*the learn more and reviews buttons*/
     border:solid 1px darkgrey;
     color:darkgrey;
     padding:3px;
 }
+/*Footer*/
 .isFooter{
     background-color:#eaeae1;
 }
