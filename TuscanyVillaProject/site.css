@@ -68,11 +68,14 @@ span.icon-bar{
     background-color:#5c5c3d;
     font-family: 'Muli', sans-serif;
 }
-.first{
-    padding-top:100px;
-    padding-bottom:100px;
-    padding-left:150px;
-    padding-right:150px;
+.first {
+    background-image: url('images/whole villa.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .textBox{
     background-color:#1f1f14;
@@ -82,11 +85,18 @@ span.icon-bar{
     padding:5px;
    
 }
-.second{
-    padding-top:100px;
-    padding-bottom:100px;
-    padding-right:15px;
-    padding-left:15px;
+.btn{
+    background-color:aquamarine;
+    float:right;
+}
+.second {
+    background-image: url('images/map.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .anotherTextBox{
     background-color:white;
@@ -100,6 +110,42 @@ span.icon-bar{
     border:solid 1px gainsboro;
     font-family: 'Muli', sans-serif;
     background-color:white;
+}
+.villaOne {
+    background-image: url('images/living room.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.villaTwo {
+    background-image: url('images/outdoor table.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.villaThree {
+    background-image: url('images/bed.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.villaFour {
+    background-image: url('images/pool with chairs.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.villaFive {
+    background-image: url('images/wooden outdoor table.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.villaSix {
+    background-image: url('images/pool.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.ad {
+    background-image: url('images/ad.png');
+    
+    background-repeat:no-repeat;
+    background-size:contain;
 }
 .boxNumOne{
     padding:35px;
@@ -118,4 +164,25 @@ span.icon-bar{
 }
 .boxTitle{
     font-weight:bold;
+}
+.villaInfo{
+    height:75px;
+    background-color:#1f1f14;
+    color:white;
+    padding-top:5px;
+}
+.nestedRow{
+    padding-top:150px;
+}
+.price{
+    background-color:#6b6b47;
+    text-align:center;
+}
+.clickBtn{
+    border:solid 1px darkgrey;
+    color:darkgrey;
+    padding:3px;
+}
+.isFooter{
+    background-color:#eaeae1;
 }
