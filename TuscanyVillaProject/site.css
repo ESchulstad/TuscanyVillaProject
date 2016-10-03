@@ -1,8 +1,21 @@
 ﻿body {
+    background-color:gainsboro;
 }
 div.page-header{
     text-align:center;
     border-bottom:none;
+    color:darkslategrey;
+}
+.homepage{
+    font-family: 'Muli', sans-serif;
+    font-weight:bold;
+    margin-bottom:0px;
+    font-size:45px;
+}
+.design{
+    font-family: 'Allura', cursive;
+    font-size:40px;
+    margin-top:0px;
 }
 .navbar .navbar-nav {
   display: inline-block;
@@ -10,17 +23,99 @@ div.page-header{
   vertical-align:top;
   
 }
+nav#navvy{
+    background-color:white;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
 
 .navbar .navbar-collapse {
     text-align: center;
 }
 .navbar-brand{
     font-size:10pt;
-    color:aqua;
 }
 #navvy a{
-    color:black;
+    color:darkgray;
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+}
+
+.brandName{
+    background-color:cornflowerblue;
+    
+}
+.properties{
+    background-color:cornflowerblue;
 }
 #navvy a:hover{
     background:none;
+}
+/*Button*/
+button.navbar-toggle{
+    border:1px solid darkgray;
+}
+span.icon-bar{
+    border:1px solid darkgray;
+}
+.main{
+    margin-top:0px;
+    padding-top:0px;
+}
+.rectangle{
+    height:600px;
+    border:solid 1px;
+    background-color:#5c5c3d;
+    font-family: 'Muli', sans-serif;
+}
+.first{
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-left:150px;
+    padding-right:150px;
+}
+.textBox{
+    background-color:#1f1f14;
+    color:white;
+    text-align:center;
+    margin-top:150px;
+    padding:5px;
+   
+}
+.second{
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-right:15px;
+    padding-left:15px;
+}
+.anotherTextBox{
+    background-color:white;
+    color:dimgrey;
+    text-align:center;
+    margin-top:150px;
+    padding: 5px;
+}
+.square{
+    height:300px;
+    border:solid 1px gainsboro;
+    font-family: 'Muli', sans-serif;
+    background-color:white;
+}
+.boxNumOne{
+    padding:35px;
+}
+.textBoxCenter{
+    background-color:#1f1f14;
+    color:white;
+    text-align:center;
+    margin-top:100px;
+    padding:5px;
+}
+.paragraphCenter{
+    text-align:center;
+    color:darkgrey;
+    margin-top:50px;
+}
+.boxTitle{
+    font-weight:bold;
 }
