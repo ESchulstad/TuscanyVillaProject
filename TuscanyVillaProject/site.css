@@ -38,26 +38,25 @@ nav#navvy{
     /*makes middle nav in middle*/
     text-align: center;
 }
-.navbar-brand{
-    /*brand name text size*/
-    font-size:10pt;
-}
+
 #navvy a{
     color:darkgray;
     font-family: 'Poiret One', cursive;
     font-weight:bold;
 }
-
-.brandName{
-    background-color:cornflowerblue;
-    
-}
-.properties{
-    background-color:cornflowerblue;
-}
 #navvy a:hover{
     background:none;
 }
+
+#brandName{
+    background-color:cornflowerblue;
+    font-size:10pt;
+}
+
+#properties{
+    background-color:cornflowerblue;
+}
+
 /*Button on NavBar*/
 button.navbar-toggle{
     border:1px solid darkgray;
